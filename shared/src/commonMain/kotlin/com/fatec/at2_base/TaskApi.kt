@@ -15,6 +15,7 @@ import kotlinx.serialization.json.Json
 class TaskApi(
 //    private val baseUrl: String = "http://192.168.3.143:8000",
     private val baseUrl: String = "http://10.0.2.2:8000",
+//    private val baseUrl: String = "http://192.168.1.119:8000",
 ) {
     private val client = HttpClient {
         install(ContentNegotiation) {
